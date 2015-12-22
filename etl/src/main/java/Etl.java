@@ -4,11 +4,13 @@ import java.util.Map;
 
 public class Etl {
    public Map<String, Integer> transform(Map<Integer, List<String>> old) {
-	   Map<String, Integer> result = new HashMap<>();
-	   old.entrySet().stream()
-	   	.forEach(e -> e.getValue().stream()
-	   			.forEach(v -> result.put(v.toLowerCase(), e.getKey())));
-      return result;
+	   Map<String, Integer> result = new HashMap<String, Integer>();
+	   for (Map.Entry<Integer, List<String>> entry: old.entrySet()) {
+		   Integer key = entry.getKey();
+		   for (String e: entry.getValue()){
+			   result.put(e.toLowerCase(), key);
+		   }
+	   }
+	return result;
    }
 }
-
