@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCountTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCountTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WordCountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18145162">
-              <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#750#767#0" expanded="true" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordCount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.4233871">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,8 +195,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
         <option value="$PROJECT_DIR$/src/test/java/WordCountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
       </list>
     </option>
   </component>
@@ -295,44 +295,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last.edited.regexp" value="" />
   </component>
-  <component name="RunManager" selected="JUnit.WordCountTest.ignorePunctuation">
-    <configuration default="false" name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WordCount" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="word-count" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="WordCountTest.countOneWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="word-count" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="src.test.java" />
-      <option name="MAIN_CLASS_NAME" value="WordCountTest" />
-      <option name="METHOD_NAME" value="countOneWord" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.WordCountTest.normalizeCase">
     <configuration default="false" name="WordCountTest.countOneOfEach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="word-count" />
@@ -383,6 +348,48 @@
       <option name="PACKAGE_NAME" value="src.test.java" />
       <option name="MAIN_CLASS_NAME" value="WordCountTest" />
       <option name="METHOD_NAME" value="ignorePunctuation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WordCountTest.includeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="word-count" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="src.test.java" />
+      <option name="MAIN_CLASS_NAME" value="WordCountTest" />
+      <option name="METHOD_NAME" value="includeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="WordCountTest.normalizeCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="word-count" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="src.test.java" />
+      <option name="MAIN_CLASS_NAME" value="WordCountTest" />
+      <option name="METHOD_NAME" value="normalizeCase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -686,19 +693,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WordCount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneWord" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneOfEach" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.WordCountTest.countMultipleOccurences" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WordCountTest.ignorePunctuation" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneOfEach" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.WordCountTest.countMultipleOccurences" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WordCountTest.ignorePunctuation" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.WordCountTest.includeNumbers" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.WordCountTest.normalizeCase" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WordCountTest.ignorePunctuation" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WordCountTest.countMultipleOccurences" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneOfEach" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneWord" />
-        <item index="4" class="java.lang.String" itemvalue="Application.WordCount" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.WordCountTest.normalizeCase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WordCountTest.includeNumbers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WordCountTest.ignorePunctuation" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.WordCountTest.countMultipleOccurences" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WordCountTest.countOneOfEach" />
       </list>
     </recent_temporary>
   </component>
@@ -722,36 +729,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordCountTest_countMultipleOccurences - 2015.12.29 at 11h 23m 27s.xml">
+    <history-entry file="WordCountTest_countMultipleOccurences - 2015.12.29 at 13h 53m 15s.xml">
       <configuration name="WordCountTest.countMultipleOccurences" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCountTest_countOneOfEach - 2015.12.29 at 11h 23m 07s.xml">
+    <history-entry file="WordCountTest_countMultipleOccurences - 2015.12.29 at 13h 58m 14s.xml">
+      <configuration name="WordCountTest.countMultipleOccurences" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_countOneOfEach - 2015.12.29 at 13h 53m 18s.xml">
       <configuration name="WordCountTest.countOneOfEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.28 at 18h 28m 03s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
+    <history-entry file="WordCountTest_countOneOfEach - 2015.12.29 at 13h 58m 08s.xml">
+      <configuration name="WordCountTest.countOneOfEach" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.29 at 11h 05m 49s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.29 at 11h 18m 04s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.29 at 11h 20m 06s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.29 at 11h 20m 41s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTest_countOneWord - 2015.12.29 at 11h 22m 38s.xml">
-      <configuration name="WordCountTest.countOneWord" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordCountTest_ignorePunctuation - 2015.12.29 at 11h 23m 33s.xml">
+    <history-entry file="WordCountTest_ignorePunctuation - 2015.12.29 at 13h 58m 18s.xml">
       <configuration name="WordCountTest.ignorePunctuation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_includeNumbers - 2015.12.29 at 13h 53m 23s.xml">
+      <configuration name="WordCountTest.includeNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_includeNumbers - 2015.12.29 at 13h 58m 23s.xml">
+      <configuration name="WordCountTest.includeNumbers" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_normalizeCase - 2015.12.29 at 13h 53m 28s.xml">
+      <configuration name="WordCountTest.normalizeCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_normalizeCase - 2015.12.29 at 13h 58m 00s.xml">
+      <configuration name="WordCountTest.normalizeCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordCountTest_normalizeCase - 2015.12.29 at 13h 58m 28s.xml">
+      <configuration name="WordCountTest.normalizeCase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -894,20 +904,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WordCountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18145162">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#750#767#0" expanded="true" />
@@ -920,6 +920,16 @@
             <element signature="e#2524#2541#0" expanded="true" />
             <element signature="e#2927#2944#0" expanded="true" />
             <element signature="e#3014#3031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4233871">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
