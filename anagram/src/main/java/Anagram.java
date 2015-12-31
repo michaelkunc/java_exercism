@@ -1,28 +1,31 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Anagram {
 
-    public Anagram(String word){
-        this.word = word;
+    private String givenWord;
+
+    public Anagram(String givenWord){
+        this.givenWord = givenWord;
     }
 
-    public List<String> match(List<String> possibleMatches) {
+    public List<String> match(List<String> possibleMatches){
         List<String> anagrams = new ArrayList<String>();
-        char[] charArray = this.word.toCharArray();
-        Arrays.sort(charArray);
+        char[] givenWordLetters = this.givenWord.toCharArray();
+        Arrays.sort(givenWordLetters);
 
-        for (String word : possibleMatches){
-            char[] letters = word.toCharArray();
-            Arrays.sort(letters);
+        for (String possibleMatch : possibleMatches) {
+            char[] possibleMatchLetters = possibleMatch.toCharArray();
+            Arrays.sort(possibleMatchLetters);
 
-            boolean sameLetters = Arrays.equals(charArray, letters);
+            boolean sameLetters = Arrays.equals(givenWordLetters, possibleMatchLetters);
 
-            if (sameLetters){
-                anagrams.add(word);
+            if (sameLetters) {
+                anagrams.add(possibleMatch);
             }
         }
         return anagrams;
+
     }
 }

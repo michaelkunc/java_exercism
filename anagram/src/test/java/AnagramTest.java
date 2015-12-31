@@ -1,9 +1,8 @@
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.matchers.JUnitMatchers.*;
-import static org.junit.Assert.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
-import java.util.*;
-import org.junit.*;
+import java.util.Arrays;
+import java.util.List;
+import org.junit.Test;
 
 public class AnagramTest {
 
