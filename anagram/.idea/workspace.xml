@@ -35,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnagramTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30241936">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,16 +47,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
+            <state vertical-scroll-proportion="0.54435486">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#318#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -342,9 +339,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,6 +413,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -860,23 +857,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnagramTest - 2016.01.01 at 13h 24m 39s.xml">
+    <history-entry file="AnagramTest - 2016.01.05 at 22h 44m 59s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.01 at 13h 25m 37s.xml">
+    <history-entry file="AnagramTest - 2016.01.05 at 22h 46m 01s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testAnagramsAreCaseInsensitive - 2016.01.01 at 13h 23m 40s.xml">
-      <configuration name="AnagramTest.testAnagramsAreCaseInsensitive" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.05 at 22h 47m 31s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testAnagramsAreCaseInsensitive - 2016.01.01 at 13h 24m 31s.xml">
-      <configuration name="AnagramTest.testAnagramsAreCaseInsensitive" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.05 at 22h 48m 02s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testDetectAnagrams - 2016.01.01 at 13h 23m 28s.xml">
-      <configuration name="AnagramTest.testDetectAnagrams" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.05 at 22h 48m 40s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testEliminateAnagramSubsets - 2016.01.01 at 13h 23m 24s.xml">
-      <configuration name="AnagramTest.testEliminateAnagramSubsets" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.06 at 18h 54m 42s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnagramTest_testEliminateAnagramsWithSameChecksum - 2016.01.01 at 13h 23m 20s.xml">
       <configuration name="AnagramTest.testEliminateAnagramsWithSameChecksum" configurationId="JUnit" />
@@ -949,6 +946,26 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -962,17 +979,34 @@
           <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#318#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30241936">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54435486">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
