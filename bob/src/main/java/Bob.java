@@ -6,9 +6,14 @@ public class Bob {
         String response = new String("Whatever.");
         String lastCharacter = statementToBob.substring(statementToBob.length() - 1);
         String exclamationPoint = String.valueOf('!');
-        if (lastCharacter.equals(exclamationPoint)){
+        String questionMark = String.valueOf('?');
+
+        boolean containsLettes = statementToBob.matches(".*[a-zA-Z]+.*");
+
+        if (statementToBob.equals(statementToBob.toUpperCase()) && containsLettes){
             response = "Whoa, chill out!";
-            return response;
+        } else if (lastCharacter.equals(questionMark)){
+            response = "Sure.";
         }
         return response;
     }

@@ -13,7 +13,6 @@ public class WordCountTest {
 
     @Test
     public void countOneWord() {
-        
         Map<String, Integer> actualWordCount = new HashMap<String, Integer>();
         final Map<String, Integer> expectedWordCount = new HashMap<String, Integer>();
         expectedWordCount.put("word", 1);
