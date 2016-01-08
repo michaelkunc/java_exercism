@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7f231b4-9ade-41f6-aa97-007605d2faa4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/Bob.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Bob.java" afterPath="$PROJECT_DIR$/src/main/java/Bob.java" />
     </list>
@@ -38,20 +39,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bob.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BobTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BobTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BobTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="1.6666666">
               <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
@@ -318,7 +319,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="3" />
     <option name="y" value="23" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
@@ -459,31 +460,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/michaelkunc/exercism/java/bob/src/test/java/BobTest.java&#10;bo&#9;PSI&#9;JAVA://BobTest" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.BobTest.silence">
-    <configuration default="false" name="BobTest.calmlySpeakingWithUmlauts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="bob" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BobTest" />
-      <option name="METHOD_NAME" value="calmlySpeakingWithUmlauts" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BobTest">
     <configuration default="false" name="BobTest.shoutingWithNoExclamationMark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="bob" />
@@ -556,6 +536,27 @@
       <option name="MAIN_CLASS_NAME" value="BobTest" />
       <option name="METHOD_NAME" value="silence" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="bob" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BobTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -858,19 +859,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BobTest.calmlySpeakingWithUmlauts" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BobTest.shoutingWithNoExclamationMark" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BobTest.statementContainingQuestionMark" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BobTest.prattlingOn" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BobTest.silence" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BobTest.shoutingWithNoExclamationMark" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BobTest.statementContainingQuestionMark" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BobTest.prattlingOn" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BobTest.silence" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BobTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BobTest.silence" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BobTest.prattlingOn" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BobTest.statementContainingQuestionMark" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BobTest.shoutingWithNoExclamationMark" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BobTest.calmlySpeakingWithUmlauts" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BobTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BobTest.silence" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BobTest.prattlingOn" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BobTest.statementContainingQuestionMark" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BobTest.shoutingWithNoExclamationMark" />
       </list>
     </recent_temporary>
   </component>
@@ -897,12 +898,18 @@
       <option name="project" value="LOCAL" />
       <updated>1452273951645</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Passing tests to empty string test.&#10;">
+      <created>1452277756558</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1452277756558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BobTest_calmlySpeakingWithUmlauts - 2016.01.08 at 12h 16m 16s.xml">
-      <configuration name="BobTest.calmlySpeakingWithUmlauts" configurationId="JUnit" />
+    <history-entry file="BobTest - 2016.01.08 at 14h 19m 07s.xml">
+      <configuration name="BobTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BobTest_prattlingOn - 2016.01.08 at 12h 16m 34s.xml">
       <configuration name="BobTest.prattlingOn" configurationId="JUnit" />
@@ -910,22 +917,22 @@
     <history-entry file="BobTest_prattlingOn - 2016.01.08 at 12h 20m 13s.xml">
       <configuration name="BobTest.prattlingOn" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BobTest_questionWithOnlyNumbers - 2016.01.08 at 12h 15m 59s.xml">
-      <configuration name="BobTest.questionWithOnlyNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BobTest_shoutingWithNoExclamationMark - 2016.01.08 at 12h 16m 22s.xml">
-      <configuration name="BobTest.shoutingWithNoExclamationMark" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BobTest_shoutingWithSpecialCharacters - 2016.01.08 at 12h 16m 07s.xml">
-      <configuration name="BobTest.shoutingWithSpecialCharacters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BobTest_shoutingWithUmlauts - 2016.01.08 at 12h 16m 12s.xml">
-      <configuration name="BobTest.shoutingWithUmlauts" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BobTest_silence - 2016.01.08 at 12h 20m 26s.xml">
       <configuration name="BobTest.silence" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BobTest_silence - 2016.01.08 at 12h 21m 07s.xml">
+      <configuration name="BobTest.silence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobTest_silence - 2016.01.08 at 14h 03m 17s.xml">
+      <configuration name="BobTest.silence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobTest_silence - 2016.01.08 at 14h 04m 47s.xml">
+      <configuration name="BobTest.silence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobTest_silence - 2016.01.08 at 14h 11m 53s.xml">
+      <configuration name="BobTest.silence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BobTest_silence - 2016.01.08 at 14h 18m 57s.xml">
       <configuration name="BobTest.silence" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BobTest_statementContainingQuestionMark - 2016.01.08 at 12h 16m 29s.xml">
@@ -933,17 +940,17 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="3" y="23" width="1436" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.4972145" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5027855" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31930694" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31930694" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18175487" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -975,7 +982,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Passing two more tests&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing two more tests&#10;" />
+    <MESSAGE value="Passing tests to empty string test.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing tests to empty string test.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1043,18 +1051,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BobTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Bob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bob.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BobTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        <state vertical-scroll-proportion="1.6666666">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
