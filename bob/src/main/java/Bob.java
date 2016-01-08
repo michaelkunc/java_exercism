@@ -1,3 +1,4 @@
+import org.apache.commons.lang3.StringUtils;
 
 public class Bob {
     private String statementToBob;
@@ -14,6 +15,8 @@ public class Bob {
             response = "Whoa, chill out!";
         } else if (lastCharacter.equals(questionMark)){
             response = "Sure.";
+        } else if (StringUtils.isBlank(statementToBob)){
+            response = "Fine! Be that way.";
         }
         return response;
     }
