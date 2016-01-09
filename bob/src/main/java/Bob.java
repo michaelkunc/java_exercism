@@ -16,9 +16,18 @@ public class Bob {
             response = "Whoa, chill out!";
         } else if (lastCharacter.equals(questionMark)){
             response = "Sure.";
-        } else if (statementToBob.length() == 0){
+        } else if ((statementToBob.length() == 0) || isWhitespace((statementToBob))){
             response = "Fine. Be that way!";
         }
         return response;
+    }
+
+    private static boolean isWhitespace(String phrase){
+        for (char x : phrase.toCharArray()){
+            if (!Character.isWhitespace(x)) {
+                return false;
+            }
+        }
+    return true;
     }
 }
