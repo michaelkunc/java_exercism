@@ -5,20 +5,21 @@ public class Bob {
         String response = new String("Whatever.");
         String questionMark = String.valueOf('?');
         String lastCharacter = String.valueOf("");
-        boolean containsLetters = statementToBob.matches(".*[a-zA-Z]+.*");
-        boolean notEmpty = statementToBob.length() == 0;
 
-        if (!notEmpty){
-            lastCharacter = statementToBob.substring(statementToBob.length() - 1);
+        if (!isWhitespace(statementToBob)){
+            lastCharacter = statementToBob.substring(statementToBob.length() -1);
         }
-
-        if (statementToBob.equals(statementToBob.toUpperCase()) && containsLetters){
-            response = "Whoa, chill out!";
-        } else if (lastCharacter.equals(questionMark)){
-            response = "Sure.";
-        } else if ((statementToBob.length() == 0) || isWhitespace((statementToBob))){
+        
+        if(isWhitespace((statementToBob))){
             response = "Fine. Be that way!";
         }
+        if (lastCharacter.equals(questionMark)) {
+            response = "Sure.";
+        }
+        if (statementToBob.equals(statementToBob.toUpperCase()) && isAlpha(statementToBob)){
+            response = "Whoa, chill out!";
+        }
+
         return response;
     }
 
@@ -29,5 +30,9 @@ public class Bob {
             }
         }
     return true;
+    }
+
+    private static boolean isAlpha(String phrase){
+        return phrase.matches(".*[a-zA-Z]+.*");
     }
 }
