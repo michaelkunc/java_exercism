@@ -3,20 +3,22 @@ public class Bob {
 
     public String hey(String statementToBob ) {
         String response = new String("Whatever.");
+
         String questionMark = String.valueOf('?');
+
         String lastCharacter = String.valueOf("");
 
         if (!isWhitespace(statementToBob)){
             lastCharacter = statementToBob.substring(statementToBob.length() -1);
         }
-        
+
         if(isWhitespace((statementToBob))){
             response = "Fine. Be that way!";
         }
-        if (lastCharacter.equals(questionMark)) {
+        if (compareLastCharacter(lastCharacter, questionMark)) {
             response = "Sure.";
         }
-        if (statementToBob.equals(statementToBob.toUpperCase()) && isAlpha(statementToBob)){
+        if (isUpperCase(statementToBob) && isAlpha(statementToBob)){
             response = "Whoa, chill out!";
         }
 
@@ -34,5 +36,13 @@ public class Bob {
 
     private static boolean isAlpha(String phrase){
         return phrase.matches(".*[a-zA-Z]+.*");
+    }
+
+    private static boolean compareLastCharacter(String lastCharacter, String comparedCharacter){
+        return lastCharacter.equals(comparedCharacter);
+    }
+
+    private static boolean isUpperCase(String phrase){
+        return phrase.equals(phrase.toUpperCase());
     }
 }
