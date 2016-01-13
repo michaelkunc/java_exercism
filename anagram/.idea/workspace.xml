@@ -50,10 +50,25 @@
       <file leaf-file-name="Anagram.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3580902">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7529183">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
+              <folding>
+                <element signature="e#10659#10660#0" expanded="true" />
+                <element signature="e#10730#10731#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -339,6 +354,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,8 +430,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -424,6 +439,8 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="anagr&#9;PSI&#9;JAVA://Anagram&#10;tes&#9;FILE&#9;file:///Users/michaelkunc/exercism/java/anagram/src/test/java/AnagramTest.java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JUnit.AnagramTest">
     <configuration default="false" name="AnagramTest.testDetectAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -857,65 +874,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnagramTest - 2016.01.05 at 22h 44m 59s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 42m 28s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.05 at 22h 46m 01s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 43m 28s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.05 at 22h 47m 31s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 45m 28s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.05 at 22h 48m 02s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 46m 06s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.05 at 22h 48m 40s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 47m 06s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest - 2016.01.06 at 18h 54m 42s.xml">
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 47m 29s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testEliminateAnagramsWithSameChecksum - 2016.01.01 at 13h 23m 20s.xml">
-      <configuration name="AnagramTest.testEliminateAnagramsWithSameChecksum" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 48m 35s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testIdenticalWordIsNotAnagram - 2016.01.01 at 13h 24m 50s.xml">
-      <configuration name="AnagramTest.testIdenticalWordIsNotAnagram" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 48m 49s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testIdenticalWordIsNotAnagram - 2016.01.01 at 13h 25m 32s.xml">
-      <configuration name="AnagramTest.testIdenticalWordIsNotAnagram" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 50m 01s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnagramTest_testMultipleAnagrams - 2016.01.01 at 13h 23m 35s.xml">
-      <configuration name="AnagramTest.testMultipleAnagrams" configurationId="JUnit" />
+    <history-entry file="AnagramTest - 2016.01.13 at 15h 52m 20s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -946,6 +963,28 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AnagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -969,6 +1008,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -989,6 +1030,8 @@
           <caret line="21" column="94" selection-start-line="21" selection-start-column="94" selection-end-line="21" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1013,12 +1056,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="262" column="23" selection-start-line="262" selection-start-column="23" selection-end-line="262" selection-end-column="23" />
+          <folding>
+            <element signature="e#10659#10660#0" expanded="true" />
+            <element signature="e#10730#10731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3580902">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7529183">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
           </folding>
         </state>
       </provider>

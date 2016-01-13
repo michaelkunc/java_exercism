@@ -4,29 +4,34 @@ import java.util.List;
 
 public class Anagram {
     private String givenWord;
+    private String sortedGivenWord;
 
     public Anagram(String givenWord) {
         this.givenWord = givenWord;
+        sortedGivenWord = sortLetters(givenWord);
     }
 
-    private char[] charArray(String word){
+    private String sortLetters(String word){
         char[] charArray = word.toLowerCase().toCharArray();
-        return charArray;
+        Arrays.sort(charArray);
+        return String.valueOf(charArray);
+    }
+
+    private boolean sameLetters(String possibleMatch){
+        return sortedGivenWord.equals(possibleMatch);
+    }
+
+    private boolean sameWord(String possibleMatch){
+        return this.givenWord.toLowerCase().equals(possibleMatch.toLowerCase());
     }
 
     public List<String> match(List<String>possibleMatches){
         List<String> anagrams = new ArrayList<String>();
-        char[] givenWordLetters = charArray(this.givenWord);
-        Arrays.sort(givenWordLetters);
+
 
         for (String possibleMatch : possibleMatches) {
-            char[] possibleMatchLetters = charArray(possibleMatch);
-            Arrays.sort(possibleMatchLetters);
-
-            boolean sameLetters = Arrays.equals(givenWordLetters, possibleMatchLetters);
-            boolean sameWord = this.givenWord.toLowerCase().equals(possibleMatch.toLowerCase());
-
-            if (sameLetters && !sameWord){
+            String sortedPossibleWord = sortLetters(possibleMatch);
+            if (sameLetters(sortedPossibleWord) && !sameWord(possibleMatch)){
                 anagrams.add(possibleMatch);
             }
         }
