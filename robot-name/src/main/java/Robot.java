@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 
 public class Robot {
-    String name;
+    String name = new String("");
     private static Set<String> namesCurrentlyUsed = new HashSet<String>();
 
 
