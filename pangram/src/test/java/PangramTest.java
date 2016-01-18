@@ -12,10 +12,10 @@ public class PangramTest {
         assertFalse(Pangrams.isPangram(""));
     }
 
-//    @Test
-//    public void testLowercasePangram() {
-//        assertTrue(Pangrams.isPangram("the quick brown fox jumps over the lazy dog"));
-//    }
+    @Test
+    public void testLowercasePangram() {
+        assertTrue(Pangrams.isPangram("the quick brown fox jumps over the lazy dog"));
+    }
 //
 //    @Test
 //    public void missingCharacterX() {
