@@ -1,9 +1,9 @@
 public class Meetup {
     private int month;
-    private int day;
+    private int year;
 
     public Meetup(int month, int year){
         this.month = month;
-        this.day = day;
+        this.year = year;
     }
 }
