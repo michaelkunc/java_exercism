@@ -9,8 +9,20 @@ public class Meetup {
         this.year = year;
     }
 
-    public DateTime day(){
+    public DateTime day(int weekday, MeetupSchedule schedule){
         DateTime day;
+        switch(schedule){
+            case FIRST:
+                day =
 
+        }
+
+
+        return day;
+
+    }
+
+    private DateTime findDay(int weekday, int start, int stop, int step){
+        DateTime day = new DateTime(year,month, 0,0);
     }
 }
