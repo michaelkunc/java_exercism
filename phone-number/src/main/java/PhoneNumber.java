@@ -30,8 +30,10 @@ public class PhoneNumber {
     }
 
     public String pretty(){
-        String pretty = "(".concat(inputNumber.substring(0,3)).concat(")").concat(" ").concat(inputNumber.substring(3,6).concat("-").concat(inputNumber.substring(6,10)));
-        return pretty;
+        if (startsWith11(inputNumber)){
+            return createPrettyNumber(1,4,7,11);
+        }
+        return createPrettyNumber(0,3,6,10);
     }
 
     private boolean isValidLength(String phoneNumber){
@@ -40,7 +42,14 @@ public class PhoneNumber {
 
 //    not crazy about this method name
     private boolean startsWith11(String phoneNumber){
-        return (phoneNumber.length() == 11) && (phoneNumber.substring(0,1) == String.valueOf("1"));
+        return (phoneNumber.length() == 11) && (phoneNumber.substring(0,1).equals(String.valueOf("1")));
+    }
+
+    private String createPrettyNumber(int firstIndex, int secondIndex, int thirdIndex, int fourthIndex){
+        String pretty =  "(".concat(inputNumber.substring(firstIndex,secondIndex)).concat(")")
+                .concat(" ").concat(inputNumber.substring(secondIndex,thirdIndex).concat("-")
+                        .concat(inputNumber.substring(thirdIndex,fourthIndex)));
+        return pretty;
     }
 
 }
