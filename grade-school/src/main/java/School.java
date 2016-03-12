@@ -1,13 +1,11 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.List;
+import java.util.*;
 
 public class School {
 
     public Map<Integer, List<String>> school = new HashMap<Integer, List<String>>();
 
     public Map<Integer, List<String>> db(){
+
         return school;
     }
 
@@ -23,5 +21,15 @@ public class School {
         }
         return new ArrayList<String>();
     }
+
+    public Map<Integer, List<String>> sort() {
+        for (Integer i : school.keySet()){
+            List<String> names = school.get(i);
+            Collections.sort(names);
+        }
+        return school;
+    }
+
+
 }
 
