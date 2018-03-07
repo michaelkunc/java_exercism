@@ -28,7 +28,6 @@ public class ArmstrongNumbersTest {
         assertFalse(armstrongNumbers.isArmstrongNumber(input));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void threeDigitNumberIsArmstrongNumber() {
         int input = 153;
@@ -36,7 +35,6 @@ public class ArmstrongNumbersTest {
         assertTrue(armstrongNumbers.isArmstrongNumber(input));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void threeDigitNumberIsNotArmstrongNumber() {
         int input = 100;
