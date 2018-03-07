@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-import java.lang.Math;
 
 class ArmstrongNumbers {
 	static int power(int n, int r) {
@@ -11,15 +9,10 @@ class ArmstrongNumbers {
       return p;
 	}
 	boolean isArmstrongNumber(int numberToCheck) {
-		int sum = 0, temp, remainder, digits = 0;
-		temp = numberToCheck;
+		int sum = 0, remainder = 0;
 
-		while (temp != 0) {
-			digits++;
-			temp = temp / 10;
-		}
-
-		temp = numberToCheck;
+		int digits = Integer.valueOf(numberToCheck).toString().length();
+		int temp = numberToCheck;
 
 		while (temp != 0) {
 			remainder = temp % 10;
