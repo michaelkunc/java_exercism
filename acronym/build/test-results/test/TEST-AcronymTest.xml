@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AcronymTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-03-12T20:54:41" hostname="Mikes-MacBook-Pro.local" time="0.002">
+<testsuite name="AcronymTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-03-12T20:58:33" hostname="Mikes-MacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="NonAcronymAllCapsWord" classname="AcronymTest" time="0.001"/>
+  <testcase name="NonAcronymAllCapsWord" classname="AcronymTest" time="0.002"/>
   <testcase name="lowercaseWords" classname="AcronymTest" time="0.0"/>
   <testcase name="basic" classname="AcronymTest" time="0.0"/>
-  <testcase name="punctuationWithoutWhitespace" classname="AcronymTest" time="0.0"/>
+  <testcase name="punctuationWithoutWhitespace" classname="AcronymTest" time="0.001"/>
   <testcase name="punctuation" classname="AcronymTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
