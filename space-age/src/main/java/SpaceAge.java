@@ -1,8 +1,10 @@
 class SpaceAge {
     private final double seconds;
+    private final double earthAge;
 
     SpaceAge(double seconds) {
         this.seconds = seconds;
+        earthAge = onEarth();
     }
 
     double getSeconds() {
@@ -14,31 +16,31 @@ class SpaceAge {
     }
 
     double onMercury() {
-        return onEarth() / 0.2408467;
+        return earthAge / 0.2408467;
     }
 
     double onVenus() {
-        return onEarth() / 0.61519726;
+        return earthAge / 0.61519726;
     }
 
     double onMars() {
-        return onEarth() / 1.8808158;
+        return earthAge / 1.8808158;
     }
 
     double onJupiter() {
-        return onEarth() / 11.862615;
+        return earthAge / 11.862615;
     }
 
     double onSaturn() {
-        return onEarth() / 29.447498;
+        return earthAge / 29.447498;
     }
 
     double onUranus() {
-        return onEarth() / 84.016846;
+        return earthAge / 84.016846;
     }
 
     double onNeptune() {
-        return onEarth() / 164.79132;
+        return earthAge / 164.79132;
     }
 
 }
