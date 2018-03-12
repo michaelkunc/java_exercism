@@ -5,12 +5,12 @@ class Acronym {
     }
 
     String get() {
-        String result = "";
+        StringBuilder result = new StringBuilder("");
         String[] splitPhrase = this.phrase.split("[-\\s]");
         for (String s:  splitPhrase){
-            result += Character.toUpperCase(s.charAt(0));
+            result.append(Character.toUpperCase(s.charAt(0)));
         }
-        return result;
+        return result.toString();
     }
 
 }
