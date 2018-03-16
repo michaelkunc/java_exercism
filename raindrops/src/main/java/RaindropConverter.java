@@ -1,12 +1,17 @@
 class RaindropConverter {
 
     String convert(int number) {
-        String strNum = String.valueOf(number);
-        switch (number){
-            case number % 3 == 0:
-            return "Pling";
+        StringBuilder result = new StringBuilder();
+        if (number % 3 == 0){
+            result.append("Pling");
+        } else if (number % 5 == 0){
+            result.append("Plang");
+        } else if (number % 7 == 0){
+            result.append("Plong");
+        } else {
+            result.append(String.valueOf(number));
         }
-        return strNum;
+        return result.toString();
     }
 
 }

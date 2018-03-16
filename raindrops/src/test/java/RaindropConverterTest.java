@@ -12,7 +12,6 @@ public class RaindropConverterTest {
         assertEquals("1", raindropConverter.convert(1));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor3IsPling() {
         assertEquals("Pling", raindropConverter.convert(3));
@@ -24,43 +23,36 @@ public class RaindropConverterTest {
         assertEquals("Plang", raindropConverter.convert(5));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor7IsPlong() {
         assertEquals("Plong", raindropConverter.convert(7));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor6IsPlingAsItHasFactor3() {
         assertEquals("Pling", raindropConverter.convert(6));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void noSoundFor2Cubed() {
         assertEquals("8", raindropConverter.convert(8));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor9IsPlingAsItHasFactor3() {
         assertEquals("Pling", raindropConverter.convert(9));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor10IsPlangAsItHasFactor5() {
         assertEquals("Plang", raindropConverter.convert(10));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor14IsPlongAsItHasFactor7() {
         assertEquals("Plong", raindropConverter.convert(14));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void soundFor15IsPlingPlangAsItHasFactors3And5() {
         assertEquals("PlingPlang", raindropConverter.convert(15));
