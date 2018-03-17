@@ -2,16 +2,19 @@ class RaindropConverter {
 
     String convert(int number) {
         StringBuilder result = new StringBuilder();
-        if (number % 3 == 0){
+        if (number % 3 == 0) {
             result.append("Pling");
-        } else if (number % 5 == 0){
-            result.append("Plang");
-        } else if (number % 7 == 0){
-            result.append("Plong");
-        } else {
-            result.append(String.valueOf(number));
         }
-        return result.toString();
-    }
+        if (number % 5 == 0) {
+            result.append("Plang");
+        }
+        if (number % 7 == 0) {
+            result.append("Plong");
+        }
+        if (result.length() <= 0) {
+            return String.valueOf(number);
+        } else
+            return result.toString();
 
+    }
 }
