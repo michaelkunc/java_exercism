@@ -1,0 +1,15 @@
+idea.txt
+.classpath
+.project
+
+*.bin
+*.lock
+*.properties
+*.css
+*.js
+*.html
+*.gradle
+*.class
+*.prefs
+*.xml
+*.idx
