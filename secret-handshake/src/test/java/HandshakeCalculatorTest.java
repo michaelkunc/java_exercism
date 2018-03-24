@@ -23,7 +23,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(1));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testThatInput2YieldsADoubleBlink() {
         assertEquals(
@@ -31,7 +30,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(2));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testThatInput4YieldsACloseYourEyes() {
         assertEquals(
