@@ -37,7 +37,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(4));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testThatInput8YieldsAJump() {
         assertEquals(
@@ -45,7 +44,6 @@ public class HandshakeCalculatorTest {
                handshakeCalculator.calculateHandshake(8));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testAnInputThatYieldsTwoActions() {
         assertEquals(
@@ -53,7 +51,7 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(3));
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void testAnInputThatYieldsTwoReversedActions() {
         assertEquals(
@@ -61,7 +59,6 @@ public class HandshakeCalculatorTest {
                handshakeCalculator.calculateHandshake(19));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testReversingASingleActionYieldsTheSameAction() {
         assertEquals(
@@ -69,7 +66,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(24));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testReversingNoActionsYieldsNoActions() {
         assertEquals(
@@ -77,7 +73,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(16));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testInputThatYieldsAllActions() {
         assertEquals(
@@ -85,7 +80,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(15));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testInputThatYieldsAllActionsReversed() {
         assertEquals(
@@ -93,7 +87,6 @@ public class HandshakeCalculatorTest {
                 handshakeCalculator.calculateHandshake(31));
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void testThatInput0YieldsNoActions() {
         assertEquals(
