@@ -1,0 +1,12 @@
+.gradle
+.settings
+.classpath
+.project
+build.gradle
+*.class
+*.html
+*.css
+*.xml
+*.bin
+*.js
+*.idx
