@@ -31,13 +31,4 @@ class NaturalNumber {
         }
 
     }
-
-    // public static void main(String[] args){
-    //     int test = new NaturalNumber(6).aliquotSum();
-    //     System.out.print(test);
-
-
-    // }
-
-
 }
